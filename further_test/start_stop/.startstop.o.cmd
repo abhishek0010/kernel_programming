@@ -1,0 +1,1 @@
+cmd_/root/kernel_test/further_test/start_stop/startstop.o := ld -m elf_x86_64   -r -o /root/kernel_test/further_test/start_stop/startstop.o /root/kernel_test/further_test/start_stop/start_k.o /root/kernel_test/further_test/start_stop/stop_k.o 

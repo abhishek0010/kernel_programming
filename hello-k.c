@@ -3,8 +3,8 @@
 * By AK
 */
 
-#include<linux/module.h>  //needed by all kernel modules
-#include<linux/kernel.h>  //needed forn kernel information and macros
+#include <linux/module.h>  //needed by all kernel modules
+#include <linux/kernel.h>  //needed forn kernel information and macros
 
 int init_module(void)
 {

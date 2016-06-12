@@ -1,0 +1,1 @@
+cmd_/root/kernel_test/further_test/start_stop/startstop.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/kernel_test/further_test/start_stop/startstop.ko /root/kernel_test/further_test/start_stop/startstop.o /root/kernel_test/further_test/start_stop/startstop.mod.o
